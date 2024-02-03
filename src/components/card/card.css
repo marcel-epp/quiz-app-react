@@ -2,19 +2,15 @@
   background-color: var(--primary-color);
   border: 3px dashed var(--secondary-color);
   border-radius: 15px;
-  padding: 5px;
+}
+
+.card__tags {
+  padding: 1.25em;
 }
 
 .card__body,
-.card__tags {
-  padding: 20px;
-}
-
 .card__header {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  padding: 20px 20px 0px 20px;
+  padding: 1.25em 1.25em 0 1.25em;
 }
 
 .card__question {
@@ -26,8 +22,15 @@
 .card__answer {
   border: 3px dashed var(--secondary-color);
   border-radius: 8px;
-  padding: 20px;
+  padding: 1.25em;
   margin: 0;
+}
+.card__answer--hidden {
+  display: none;
+}
+
+.card__answer--display {
+  display: block;
 }
 
 .card__tags {
@@ -46,8 +49,16 @@
 }
 
 .card__button--answer {
+  width: 100%;
   padding: 12px 0px;
+  margin-bottom: 1.25em;
   border-radius: 8px;
+}
+
+.card__button:hover,
+.card__button--answer:hover {
+  background-color: var(--background-color);
+  transition: 600ms ease-in-out;
 }
 
 .card__button--bookmark {
