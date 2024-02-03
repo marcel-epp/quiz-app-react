@@ -1,0 +1,19 @@
+.footer {
+  background-color: var(--primary-color);
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  border-top: 3px dashed var(--secondary-color);
+}
+
+.footer__inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: flex;
+}
+
+.footer__link {
+  flex-grow: 1;
+  text-align: center;
+  padding: 1.5em;
+}
