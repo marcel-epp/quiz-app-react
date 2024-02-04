@@ -1,10 +1,10 @@
 import Card from "../card/card";
 
-function Main() {
+function MainBookmarks() {
   return (
     <main className="main">
       <Card />
     </main>
   );
 }
-export default Main;
+export default MainBookmarks;

@@ -9,7 +9,7 @@ function HandleAnswer() {
   return (
     <div className="card__body">
       <button onClick={() => setIsToggled(!isToggled)} type="button" className="card__button card__button--answer">
-        show answer
+        {isToggled ? "hide answer" : "show answer"}
       </button>
       <p className={isToggled ? "card__answer card__answer--display" : "card__answer card__answer--hidden"}>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. A itaque corporis maiores modi quaerat minus tenetur

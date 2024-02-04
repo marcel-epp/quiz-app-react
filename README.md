@@ -1,6 +1,6 @@
 # Quiz-App with react
 
-This is the good old Quiz-App from recap project 2. But this time, with react. For the setup i used vite.
+This is the good old Quiz-App from recap project 2. But this time, with react. For the setup i used vite and react router.
 
 # React + Vite
 

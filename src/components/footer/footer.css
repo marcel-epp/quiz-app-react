@@ -17,3 +17,9 @@
   text-align: center;
   padding: 1.5em;
 }
+
+.footer__link:hover,
+.footer__link--active {
+  color: var(--background-color);
+  background-color: var(--primary-color);
+}
