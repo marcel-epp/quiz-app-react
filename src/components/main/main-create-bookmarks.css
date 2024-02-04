@@ -1,0 +1,50 @@
+.form,
+.form--group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form--group {
+  background-color: var(--primary-color);
+  border: 3px dashed var(--secondary-color);
+  border-radius: 15px;
+  padding: 1.25em;
+  margin-bottom: 1.25em;
+  font-weight: 600;
+}
+
+#form--question,
+#form--answer {
+  resize: none;
+}
+
+#form--question,
+#form--answer,
+#form--tags {
+  border: 3px dashed var(--secondary-color);
+  border-radius: 15px;
+  margin-top: 0.5em;
+  padding: 0.5em;
+}
+
+.form--charactersleft {
+  font-size: 0.8em;
+  font-weight: 400;
+  margin-top: 0.5em;
+  align-self: flex-end;
+}
+
+.form--submit {
+  background-color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  padding: 12px 0px;
+  margin-bottom: 1.25em;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.form--submit:hover {
+  background-color: var(--background-color);
+  transition: 600ms ease-in-out;
+}

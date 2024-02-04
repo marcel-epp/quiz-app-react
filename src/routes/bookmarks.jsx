@@ -5,7 +5,6 @@ import MainBookmarks from "../components/main/main-bookmarks";
 import Footer from "../components/footer/footer";
 // import css
 import "../components/header/header.css";
-import "../components/main/main-home.css";
 import "../components/card/card.css";
 import "../components/footer/footer.css";
 
